@@ -1,3 +1,11 @@
 # JavaSE Notes
 
-## [Reflection](./Reflection/Reflection.md)
+### Reflection
+
+#### [Reflection](./Reflection/Reflection.md)
+
+### Proxy
+
+#### [StaticProxy](./Proxy/StaticProxy.md)
+
+#### [DynamicProxy](./Proxy/DynamicProxy.md)
