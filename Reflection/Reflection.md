@@ -42,8 +42,7 @@ Oracle官网中对Reflection的描述是这样的：
 
             Object invokeTester = classType.newInstance();
 
-            Method addMethod = classType.getMethod("add", new Class[] { int.class,
-                  int.class });
+            Method addMethod = classType.getMethod("add", new Class[] { int.class, int.class });
             
             Object result = addMethod.invoke(invokeTester, new Object[]{1, 2});
             
