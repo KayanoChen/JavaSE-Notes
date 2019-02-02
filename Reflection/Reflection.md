@@ -19,7 +19,7 @@ Oracle官网中对Reflection的描述是这样的：
 
 - 有可能会破坏原有的封装（能访问私有属性）
 
-## 知识点
+## 常见知识点
 
  - 对象的Class对象可以通过.class/.getClass/Class.forName三种方式获取
 
@@ -171,33 +171,10 @@ Oracle官网中对Reflection的描述是这样的：
             }
          }
 
+ - 获取父类的classType
+
+         Class superClazz = clazz.getSuperclass();
 
 ## 关键字
 
-- ```getClass()```
-
-- ```Class.forName()```
-
-- ```.class```
-
-- ```Method```
-
-- ```Field```
-
-- ```Constructor```
-
-- ```Array```
-
-- ```invoke()```
-
-- ```getSuperclass()```
-
-- ```newInstance()```
-
-- ```AccessibleObject```
-
-- ```isAccessible()```
-
-- ```setAccesible()```
-
-- etc...
+```getClass()```, ```Class.forName()```, ```.class```, ```Method```, ```Field```, ```Constructor```, ```Array```, ```invoke()```, ```getSuperclass()```, ```newInstance()```, ```AccessibleObject```, ```isAccessible()```, ```setAccesible()```...
