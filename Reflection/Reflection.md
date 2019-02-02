@@ -140,7 +140,7 @@ Oracle官网中对Reflection的描述是这样的：
 
 
 
- - 访问私有属性、方法、构造方法等。Field、Method、Constructor直接或间接继承自类AccessibleObject，该类的官方解释为：The AccessibleObject class is the base class for Field, Method, and Constructor objects (known as reflected objects)，AccessibleObject的accessible属性可判断与控制Field、Method、Constructor等是否可被外部访问。
+ - 访问私有属性、方法、构造方法等。Field、Method、Constructor直接或间接继承自类AccessibleObject，该类的官方解释为：The AccessibleObject class is the base class for Field, Method, and Constructor objects (known as reflected objects)，AccessibleObject的accessible属性可判断与控制Field、Method、Constructor等是否可被外部访问。
 
          import java.lang.reflect.Method;
 
