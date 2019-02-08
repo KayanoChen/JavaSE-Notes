@@ -1,16 +1,23 @@
 # Java SE Static Proxy
 
+## 概念
+
+>代理指的是，通过操作代理类，实现对被代理类的操作，而不是直接操作被代理类。
+>静态代理于编译时便能确定代理类与被代理类的关系，所以称为静态代理。
+
+## 图例
+
+![static proxy](./StaticProxy.PNG)
+
 ## Sample
 
-### Subject.class
-
+        ///Subject.class
         public abstract class Subject{
             public abstract void request();
         }
 
 
-### RealSubject.class
-
+        ///RealSubject.class
         public class RealSubject extends Subject{
             public void request()
             {
@@ -19,8 +26,7 @@
         }
 
 
-### ProxySubject.class
-
+        ///ProxySubject.class
         public class ProxySubject extends Subject{
 
             private RealSubject realSubject; //代理角色内部引用了真实角色
@@ -52,8 +58,7 @@
         }
 
 
-### Client.class
-
+        ///Client.class
         public class Client{
             public static void main(String[] args)
             {
