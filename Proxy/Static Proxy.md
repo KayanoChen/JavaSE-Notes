@@ -11,13 +11,15 @@
 
 ## Sample
 
-        ///Subject.class
+- Subject.class
+        
         public abstract class Subject{
             public abstract void request();
         }
 
 
-        ///RealSubject.class
+- RealSubject.class
+
         public class RealSubject extends Subject{
             public void request()
             {
@@ -26,7 +28,8 @@
         }
 
 
-        ///ProxySubject.class
+- ProxySubject.class
+
         public class ProxySubject extends Subject{
 
             private RealSubject realSubject; //代理角色内部引用了真实角色
@@ -58,7 +61,8 @@
         }
 
 
-        ///Client.class
+- Client.class
+
         public class Client{
             public static void main(String[] args)
             {
