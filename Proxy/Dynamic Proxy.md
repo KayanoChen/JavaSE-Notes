@@ -10,7 +10,7 @@ oracle官网的解释如下：
 
 ## 图例
 
-![proxy](./proxy.png)
+![proxy](./Proxy.png)
 
 ## 详解
 
