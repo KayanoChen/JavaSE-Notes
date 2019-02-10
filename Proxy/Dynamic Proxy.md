@@ -10,7 +10,7 @@ oracle官网的解释如下：
 
 ## 图例
 
-![dynamic proxy](./DynamicProxy.png)
+![proxy](./proxy.png)
 
 ## 详解
 
@@ -37,7 +37,7 @@ java docs中对类Proxy的描述是：
 
 代理类继承关系如下：
 
-![dynamic proxy 2](./DynamicProxy2.png)
+![proxy2](./Proxy2.png)
 
 ## Sample
 

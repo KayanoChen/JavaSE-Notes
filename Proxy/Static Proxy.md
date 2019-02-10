@@ -7,7 +7,7 @@
 
 ## 图例
 
-![static proxy](./StaticProxy.PNG)
+![proxy](./proxy.png)
 
 ## Sample
 
